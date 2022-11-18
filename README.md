@@ -18,7 +18,7 @@ This application allow you to apply basic CRUD operations which means Create (Ad
 
 # Buttons
 
-- Let's start from adding new tasks. When you click the button, a frame which looks exact like below will welcome you. You need to enter the task number you want to add. Warning: The text must be integer or you will see an error message!
+- Let's start from adding new tasks. When you click the button, a frame which looks exact like below will welcome you. You need to enter the task number you want to add. Warning: The text must be integer or higher than 0 or you will see an error message!
 
 ![image](https://user-images.githubusercontent.com/44292203/202723047-5e8e15ca-0962-4d34-bc33-68e75ec2cc83.png)
 
@@ -58,4 +58,11 @@ This application allow you to apply basic CRUD operations which means Create (Ad
 
 ![image](https://user-images.githubusercontent.com/44292203/202727232-b2d86a7f-63ef-496c-9ecf-b60b470ca50d.png)
 
+# And the data is being saved by how?
+
+- A file named MyToDo.csv helps us to save our data. I've decided to use csv file to keep the data. The file looks like the below. Tasks that you were able to done will take the value 1 while the others take 0. Date is being added if you run the program in a day. Running the program everyday will keep your everyday's data.
+
+![image](https://user-images.githubusercontent.com/44292203/202728681-9c27115a-2d92-40ce-9094-0744b7f13484.png)
+
+- Performing CRUD operations or ticking a checkbox will update the data in the csv file immediately. Also, let's assume that you want to add new data after 15 days of using this application. After the add operation, the value of added day will get 0 while the past days get NaN value. Adding new tasks after a few days means this task was not a part of you before. So, you can only update starting from last day. Of course you can edit values of that column from the csv file.
 
