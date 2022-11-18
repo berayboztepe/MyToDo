@@ -10,7 +10,7 @@ This application allow you to apply basic CRUD operations which means Create (Ad
 
 - The application basically looks like this. In the top section, the buttons can be used to performs this CRUD operations. Also Analyse button can be used to analyse how good are you to perform these tasks.
 
-![image](https://user-images.githubusercontent.com/44292203/202720025-0dcfce7d-fdd6-4825-ac93-9a0742fda8c0.png)
+![image](https://user-images.githubusercontent.com/44292203/202788856-17e0ca24-0477-4995-aba7-7a56ba68e14c.png)
 
 - And checklist buttons stay as ticked in a day. When the new day begins, the data gets resetted. Also, when you forget to update last day's data or you were not be able to be on the computer, you can edit your last day's data by clicking "Update Last Day Data" button.
 
