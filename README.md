@@ -67,7 +67,7 @@ This application allow you to apply basic CRUD operations which means Create (Ad
 
 - A file named MyToDo.csv helps us to save our data. I've decided to use csv file to keep the data. The file looks like the below. Tasks that you were able to done will take the value 1 while the others take 0. Date is being added if you run the program in a day. Running the program everyday will keep your everyday's data.
 
-![image](https://user-images.githubusercontent.com/44292203/202794415-6a996908-c3b2-4d35-89e0-e4f7ce36874d.png)
+![image](https://user-images.githubusercontent.com/44292203/202794646-1802ec73-2dbb-455a-9f5e-d74fc2c048a1.png)
 
 - Performing CRUD operations or ticking a checkbox will update the data in the csv file immediately. Also, let's assume that you want to add new data after 15 days of using this application. After the add operation, the value of added day will get 0 while the past days get NaN value. Adding new tasks after a few days means this task was not a part of you before. So, you can only update starting from last day. Of course you can edit values of that column from the csv file.
 
