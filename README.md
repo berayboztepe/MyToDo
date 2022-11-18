@@ -14,6 +14,11 @@ This application allow you to apply basic CRUD operations which means Create (Ad
 
 - And checklist buttons stay as ticked in a day. When the new day begins, the data gets resetted. Also, when you forget to update last day's data or you were not be able to be on the computer, you can edit your last day's data by clicking "Update Last Day Data" button.
 
+- Having no data will cause the program welcome you like that:
+
+![image](https://user-images.githubusercontent.com/44292203/202730689-ad32e0c9-5a86-42ff-8ca4-227370ec0af3.png)
+
+
 
 
 # Buttons
