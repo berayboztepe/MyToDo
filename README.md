@@ -1,5 +1,5 @@
 # MyToDo
-It is a basic GUI application that allows us to track and analyze our tasks daily.
+It is a basic GUI application that allows us to track and analyze our tasks daily. To be honest, I was not interested in designing and it was my first time using this library. So, sorry for the design :)
 
 
 Everyone is doing some routine tasks daily. Being one of them and wanting to get experience in another programming language's GUI libraries have made me try this project. So, I have decided to go with Python's Tkinter library. It is a very basic Python GUI application.
